@@ -44,6 +44,7 @@ public class DataDummy {
     };
 
     private static int[] Luas_Wilayah_Kota = {
+            1000,
             265,
             35375,
             9663,
@@ -51,6 +52,7 @@ public class DataDummy {
             167,
             373,
             3186,
+            350,
             5780,
             935,
             33,
@@ -265,7 +267,7 @@ public class DataDummy {
 
     public static ArrayList<CabangProdusen> getListCabangProdusen() {
         ArrayList<CabangProdusen> list = new ArrayList<>();
-        for (int i = 0; i < Kode_Produsen.length; i++) {
+        for (int i = 0; i < Kode_Cabang_Produsen.length; i++) {
             CabangProdusen cabangProdusen = new CabangProdusen(
                     Kode_Cabang_Produsen[i],
                     Kode_Produsen_Cabang_Produsen[i],
@@ -1004,6 +1006,551 @@ public class DataDummy {
                     Jumlah_Dermaga_Pelabuhan[i]
             );
             list.add(pelabuhan);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Rute = {
+            "RT-1",
+            "RT-2",
+            "RT-3",
+            "RT-4",
+            "RT-5",
+            "RT-6"
+    };
+
+    private static String[] Kode_Tempat_Pemberhentian_Asal = {
+            "TP-1",
+            "TP-3",
+            "TP-5",
+            "TP-1",
+            "TP-7",
+            "TP-9",
+    };
+
+    private static String[] Kode_Tempat_Pemberhentian_Tujuan = {
+            "TP-2",
+            "TP-4",
+            "TP-6",
+            "TP-8",
+            "TP-8",
+            "TP-10",
+    };
+
+    private static int[] Jarak = {
+            500,
+            100,
+            250,
+            700,
+            150,
+            50
+    };
+
+    private static String[] Waktu_Berangkat = {
+            "06:00:00",
+            "13:20:00",
+            "01:30:00",
+            "21:00:00",
+            "17:45:00",
+            "09:00:00"
+    };
+
+    private static String[] Waktu_Tiba = {
+            "21:00:00",
+            "06:00:00",
+            "09:00:00",
+            "13:20:00",
+            "01:30:00",
+            "17:45:00"
+    };
+
+    private static String[] Tanggal_Berangkat = {
+            "2020-12-31",
+            "2021-01-01",
+            "2021-01-07",
+            "2021-01-02",
+            "2021-01-01",
+            "2021-01-05",
+    };
+
+    private static String[] Tanggal_Tiba = {
+            "2020-12-31",
+            "2021-01-02",
+            "2021-01-07",
+            "2021-01-03",
+            "2021-01-02",
+            "2021-01-05",
+    };
+
+    public static ArrayList<Rute> getListRute() {
+        ArrayList<Rute> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Rute.length; i++) {
+            Rute rute = new Rute(
+                    Kode_Rute[i],
+                    Kode_Tempat_Pemberhentian_Asal[i],
+                    Kode_Tempat_Pemberhentian_Tujuan[i],
+                    Jarak[i],
+                    Waktu_Berangkat[i],
+                    Waktu_Tiba[i],
+                    Tanggal_Berangkat[i],
+                    Tanggal_Tiba[i]
+            );
+            list.add(rute);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Tiket = {
+            "TKT-1",
+            "TKT-2",
+            "TKT-3",
+            "TKT-4",
+            "TKT-5",
+            "TKT-6",
+            "TKT-7",
+            "TKT-8",
+            "TKT-9",
+            "TKT-10",
+            "TKT-11",
+            "TKT-12",
+            "TKT-13",
+            "TKT-14",
+            "TKT-15",
+            "TKT-16",
+            "TKT-17",
+            "TKT-18",
+            "TKT-19",
+            "TKT-20",
+            "TKT-21",
+            "TKT-22",
+            "TKT-23",
+            "TKT-24",
+            "TKT-25",
+            "TKT-26",
+            "TKT-27",
+            "TKT-28",
+            "TKT-29",
+            "TKT-30",
+    };
+
+    private static String[] Kode_Rute_Tiket = {
+            "RT-1",
+            "RT-1",
+            "RT-1",
+            "RT-1",
+            "RT-1",
+            "RT-2",
+            "RT-2",
+            "RT-2",
+            "RT-2",
+            "RT-2",
+            "RT-3",
+            "RT-3",
+            "RT-3",
+            "RT-3",
+            "RT-3",
+            "RT-4",
+            "RT-4",
+            "RT-4",
+            "RT-4",
+            "RT-4",
+            "RT-5",
+            "RT-5",
+            "RT-5",
+            "RT-5",
+            "RT-5",
+            "RT-6",
+            "RT-6",
+            "RT-6",
+            "RT-6",
+            "RT-6",
+    };
+
+    private static int[] Harga = {
+            1000000,
+            1000000,
+            600000,
+            600000,
+            600000,
+            2000000,
+            2000000,
+            2000000,
+            2000000,
+            2000000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            300000,
+            300000,
+            300000,
+            300000,
+            300000,
+            140000,
+            140000,
+            140000,
+            80000,
+            80000,
+            50000,
+            50000,
+            50000,
+            50000,
+            50000,
+    };
+
+    private static String[] Kelas = {
+            "Bisnis",
+            "Bisnis",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Premium",
+            "Premium",
+            "Premium",
+            "Premium",
+            "Premium",
+            "eksekutif",
+            "eksekutif",
+            "eksekutif",
+            "eksekutif",
+            "eksekutif",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Premium",
+            "Premium",
+            "Premium",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+            "Ekonomi",
+    };
+
+    private static String[] Posisi_Duduk = {
+            "A1",
+            "A2",
+            "H1",
+            "H2",
+            "H3",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "B1",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "A1",
+            "A2",
+            "B1",
+            "B7",
+            "C3",
+            "1A1",
+            "1A2",
+            "1A3",
+            "1A4",
+            "1A5"
+    };
+
+    private static int[] Telah_Terbeli = {
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+    };
+
+    public static ArrayList<Tiket> getListTiket() {
+        ArrayList<Tiket> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Tiket.length; i++) {
+            Tiket tiket = new Tiket(
+                    Kode_Tiket[i],
+                    Kode_Rute_Tiket[i],
+                    Harga[i],
+                    Kelas[i],
+                    Posisi_Duduk[i],
+                    Telah_Terbeli[i]
+            );
+            list.add(tiket);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Kendaraan_KF = {
+            "KDRN-3",
+            "KDRN-3",
+            "KDRN-3",
+            "KDRN-4",
+            "KDRN-4"
+    };
+
+    private static String[] Kode_Fitur_KF = {
+            "FTR-1",
+            "FTR-2",
+            "FTR-3",
+            "FTR-1",
+            "FTR-2"
+    };
+
+    public static ArrayList<MemilikiFitur> getListMemilikiFitur() {
+        ArrayList<MemilikiFitur> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Kendaraan_KF.length; i++) {
+            MemilikiFitur memilikiFitur = new MemilikiFitur(
+                    Kode_Kendaraan_KF[i],
+                    Kode_Fitur_KF[i]
+            );
+            list.add(memilikiFitur);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Kendaraan_KR = {
+            "KDRN-1",
+            "KDRN-2",
+            "KDRN-3",
+            "KDRN-4",
+            "KDRN-5",
+            "KDRN-6",
+    };
+
+    private static String[] Kode_Rute_KR = {
+            "RT-1",
+            "RT-2",
+            "RT-3",
+            "RT-4",
+            "RT-5",
+            "RT-6"
+    };
+
+    public static ArrayList<MemilikiRute> getListMemilikiRute() {
+        ArrayList<MemilikiRute> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Kendaraan_KR.length; i++) {
+            MemilikiRute memilikiRute = new MemilikiRute(
+                    Kode_Kendaraan_KR[i],
+                    Kode_Rute_KR[i]
+            );
+            list.add(memilikiRute);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Tempat_Pemberhentian_TPL = {
+            "TP-1",
+            "TP-1",
+            "TP-1",
+            "TP-2",
+            "TP-2",
+            "TP-2",
+            "TP-3",
+            "TP-3",
+            "TP-3",
+            "TP-4",
+            "TP-4",
+            "TP-4",
+            "TP-5",
+            "TP-5",
+            "TP-6",
+            "TP-6",
+            "TP-7",
+            "TP-7",
+            "TP-8",
+            "TP-9",
+            "TP-9",
+            "TP-10"
+    };
+
+    private static String[] Kode_Layanan_TPL = {
+            "LYNN-1",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-1",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-1",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-1",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-2",
+            "LYNN-2",
+            "LYNN-3",
+            "LYNN-2"
+    };
+
+    public static ArrayList<MemilikiLayanan> getListMemilikiLayanan() {
+        ArrayList<MemilikiLayanan> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Tempat_Pemberhentian_TPL.length; i++) {
+            MemilikiLayanan memilikiLayanan = new MemilikiLayanan(
+                    Kode_Tempat_Pemberhentian_TPL[i],
+                    Kode_Layanan_TPL[i]
+            );
+            list.add(memilikiLayanan);
+        }
+        return list;
+    }
+
+    private static String[] Kode_Tempat_Pemberhentian_TPKF = {
+            "TP-1",
+            "TP-2",
+            "TP-3",
+            "TP-4",
+            "TP-5",
+            "TP-6",
+            "TP-7",
+            "TP-8",
+            "TP-9",
+            "TP-10",
+            "TP-1",
+            "TP-2",
+            "TP-1",
+            "TP-2",
+            "TP-3",
+            "TP-4",
+            "TP-5",
+            "TP-6",
+            "TP-7",
+            "TP-8",
+            "TP-9",
+            "TP-10",
+            "TP-1",
+            "TP-1",
+            "TP-2",
+            "TP-3",
+            "TP-4",
+            "TP-5",
+            "TP-6",
+            "TP-7",
+            "TP-8",
+            "TP-9",
+            "TP-10",
+    };
+
+    private static String[] Kode_Kendaraan_TPKF = {
+            "KDRN-1",
+            "NULL",
+            "KDRN-3",
+            "NULL",
+            "KDRN-5",
+            "KDRN-6",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "KDRN-1",
+            "KDRN-3",
+            "KDRN-6",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+            "KDRN-1",
+            "NULL",
+            "KDRN-3",
+            "KDRN-4",
+            "KDRN-5",
+            "KDRN-6",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL",
+    };
+
+    private static String[] Kode_Fasilitas_TPKF = {
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-1",
+            "FSLTS-2",
+            "FSLTS-2",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-3",
+            "FSLTS-4",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5",
+            "FSLTS-5"
+    };
+
+    public static ArrayList<MemilikiFasilitas> getListMemilikiFasilitas() {
+        ArrayList<MemilikiFasilitas> list = new ArrayList<>();
+        for (int i = 0; i < Kode_Tempat_Pemberhentian_TPKF.length; i++) {
+            MemilikiFasilitas memilikiFasilitas = new MemilikiFasilitas(
+                    Kode_Tempat_Pemberhentian_TPKF[i],
+                    Kode_Kendaraan_TPKF[i],
+                    Kode_Fasilitas_TPKF[i]
+            );
+            list.add(memilikiFasilitas);
         }
         return list;
     }

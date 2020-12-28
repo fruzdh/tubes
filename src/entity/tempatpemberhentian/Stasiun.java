@@ -4,7 +4,7 @@ public class Stasiun {
     private String Kode_Tempat_Pemberhentian;
     private int Jumlah_Jalur;
     private String Klasifikasi;
-    private  int Jumlah_Peron;
+    private int Jumlah_Peron;
 
     public Stasiun(String kode_Tempat_Pemberhentian, int jumlah_Jalur, String klasifikasi, int jumlah_Peron) {
         Kode_Tempat_Pemberhentian = kode_Tempat_Pemberhentian;

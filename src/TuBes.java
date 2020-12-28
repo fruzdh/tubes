@@ -27,13 +27,15 @@ public class TuBes {
         SQLInsert sqlInsert = new SQLInsert();
         int kosong = sqlCek.KOTA(connection);
         if (kosong == 1) {
-            for (int i=0; i<DataDummy.getListKota().size(); i++){
+            for (int i=0; i<DataDummy.getListKota().size(); i++) {
                 int row = sqlInsert.KOTA(connection, DataDummy.getListKota().get(i));
             }
         }
         kosong = sqlCek.FASILITAS(connection);
         if (kosong == 1) {
-
+            for (int i=0; i<DataDummy.getListFasilitas().size(); i++) {
+                int row = sqlInsert.FASILITAS(connection, DataDummy.getListFasilitas().get(i));
+            }
         }
         kosong = sqlCek.FITUR(connection);
         if (kosong == 1) {

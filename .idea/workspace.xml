@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffbfae21-da64-4244-809d-ee70f3e2e319" name="Default Changelist" comment="" />
+    <list default="true" id="ffbfae21-da64-4244-809d-ee70f3e2e319" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/DataDummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Fasilitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Fitur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Kota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Layanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/MemilikiFasilitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/MemilikiFitur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/MemilikiLayanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/MemilikiRute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Pemilik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Rute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Tiket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/AlatTransportasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/Helikopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/Kapal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/Kereta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/MobilBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/MobilPenumpang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/alatransportasi/Pesawat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/produsen/CabangProdusen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/produsen/Produsen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/Bandara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/Heliport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/Pelabuhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/Stasiun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/TempatPemberhentian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/tempatpemberhentian/Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQL/SQLCek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/SQLCek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQL/SQLInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/SQLInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TuBes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TuBes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Kota.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +49,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mE1WLEX40jmGthPyHX9rcTaUjo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/sqljdbc_8.4/enu/mssql-jdbc-8.4.1.jre11.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -60,6 +101,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1609044954770" />
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1609140837922">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1609140837922" />
     <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609051624114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -92,10 +137,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1609127660307" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1609063872367">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1609132402147">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609063872367" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609132402147" />
     <state x="339" y="22" width="670" height="676" key="search.everywhere.popup" timestamp="1609066205737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

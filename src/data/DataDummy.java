@@ -23,7 +23,8 @@ public class DataDummy {
             "KT-10",
             "KT-11",
             "KT-12",
-            "KT-13"
+            "KT-13",
+            "-1"
     };
 
     private static String[] Nama_Kota = {
@@ -40,7 +41,8 @@ public class DataDummy {
             "Jayapura",
             "Madiun",
             "Makassar",
-            "Sidoarjo"
+            "Sidoarjo",
+            "-1"
     };
 
     private static int[] Luas_Wilayah_Kota = {
@@ -57,7 +59,8 @@ public class DataDummy {
             935,
             33,
             199,
-            602
+            602,
+            -1
     };
 
     public static ArrayList<Kota> getListKota() {
@@ -154,7 +157,8 @@ public class DataDummy {
             "PRDSN-2",
             "PRDSN-3",
             "PRDSN-4",
-            "PRDSN-5"
+            "PRDSN-5",
+            "-1"
     };
 
     private static String[] Kode_Kota_Produsen = {
@@ -162,7 +166,8 @@ public class DataDummy {
             "KT-0",
             "KT-0",
             "KT-12",
-            "KT-0"
+            "KT-0",
+            "-1"
     };
 
     private static String[] Nama_Produsen = {
@@ -170,7 +175,8 @@ public class DataDummy {
             "Mercedes-Benz",
             "Boeing",
             "Industri Kapal Indonesia",
-            "Airbus"
+            "Airbus",
+            "-1"
     };
 
     private static String[] Alamat_Pusat_Produsen = {
@@ -178,7 +184,8 @@ public class DataDummy {
             "Mercedesstraße 120 D-70372 Stuttgart Deutschland",
             "Chicago, IL, US (HQ) 100 N Riverside Plaza.",
             "JL Galangan Kapal No. 31, Makassar, Sulawesi Selatan, Indonesia, 90211.",
-            "Airbus Group SE PO Box 32008 2303 DA Leiden The Netherlands"
+            "Airbus Group SE PO Box 32008 2303 DA Leiden The Netherlands",
+            "-1"
     };
 
     private static String[] Email_Produsen = {
@@ -186,7 +193,8 @@ public class DataDummy {
             "dialog.mb@daimler.com",
             "paul.j.lewis2@boeing.com",
             "ptiki@ikishipyard.co.id",
-            "erecruiting@airbus.com"
+            "erecruiting@airbus.com",
+            "-1"
     };
 
     private static String[] Nomor_Telepon_Produsen = {
@@ -194,7 +202,8 @@ public class DataDummy {
             "+49 7 11 17-0",
             "562-234-1391",
             "+62 411 448 653",
-            "+33 5 81 31 75 00"
+            "+33 5 81 31 75 00",
+            "-1"
     };
 
     private static String[] Website_Produsen = {
@@ -202,7 +211,8 @@ public class DataDummy {
             "https://www.mercedes-benz.com/en/",
             "https://www.boeing.com/",
             "https://www.ikishipyard.co.id/",
-            "https://www.airbus.com/"
+            "https://www.airbus.com/",
+            "-1"
     };
 
     private static int[] Kapasitas_Produksi_Produsen = {
@@ -210,7 +220,8 @@ public class DataDummy {
             200,
             31,
             21,
-            35
+            35,
+            -1
     };
 
     private static int[] Jumlah_Karyawan_Produsen = {
@@ -218,7 +229,8 @@ public class DataDummy {
             10000,
             15000,
             2000,
-            12000
+            12000,
+            -1
     };
 
     public static ArrayList<Produsen> getListProdusen() {
@@ -286,7 +298,8 @@ public class DataDummy {
             "PMLK-3",
             "PMLK-4",
             "PMLK-5",
-            "PMLK-6"
+            "PMLK-6",
+            "-1"
     };
 
     private static String[] Kode_Kota_Pemilik = {
@@ -295,7 +308,8 @@ public class DataDummy {
             "KT-13",
             "KT-7",
             "KT-5",
-            "KT-4"
+            "KT-4",
+            "-1"
     };
 
     private static String[] Nama_Pemilik = {
@@ -304,7 +318,8 @@ public class DataDummy {
             "Eka Patas",
             "Angkot Jalan",
             "KAI",
-            "PELNI"
+            "PELNI",
+            "-1"
     };
 
     private static String[] Alamat_Pemilik = {
@@ -313,7 +328,8 @@ public class DataDummy {
             "Jl.Raya Gilang No.10, Gilang Selatan, Gilang, Kec. Taman, Kabupaten Sidoarjo, Jawa Timur 61257",
             "Jl. Dewan Karang Nongko Yogyakarta",
             "Jalan Perintis Kemerdekaan No. 1 Bandung 40117",
-            "Jl. Gajah Mada No. 14, Jakarta Pusat, 10130 DKI Jakarta, Indonesia"
+            "Jl. Gajah Mada No. 14, Jakarta Pusat, 10130 DKI Jakarta, Indonesia",
+            "-1"
     };
 
     private static String[] Email_Pemilik = {
@@ -322,7 +338,8 @@ public class DataDummy {
             "-",
             "-",
             "cs@kai.id",
-            "infopelni162@pelni.co.id"
+            "infopelni162@pelni.co.id",
+            "-1"
     };
 
     private static String[] Nomor_Telepon_Pemilik = {
@@ -331,7 +348,8 @@ public class DataDummy {
             "0817-6765-000",
             "0888-0666-6660",
             "022-4230031",
-            "+62 21 6385 4130"
+            "+62 21 6385 4130",
+            "-1"
     };
 
     private static String[] Website_Pemilik = {
@@ -340,7 +358,8 @@ public class DataDummy {
             "https://www.ekapatas.com/",
             "-",
             "https://kai.id/",
-            "https://www.pelni.co.id/"
+            "https://www.pelni.co.id/",
+            "-1"
     };
 
     public static ArrayList<Pemilik> getListPemilik() {
@@ -367,6 +386,7 @@ public class DataDummy {
             "KDRN-4",
             "KDRN-5",
             "KDRN-6",
+            "-1"
     };
 
     private static String[] Kode_Produsen_Kendaraan = {
@@ -376,6 +396,7 @@ public class DataDummy {
             "PRDSN-2",
             "PRDSN-1",
             "PRDSN-4",
+            "-1"
     };
 
     private static String[] Kode_Pemilik_Kendaraan = {
@@ -384,7 +405,8 @@ public class DataDummy {
             "PMLK-3",
             "PMLK-4",
             "PMLK-5",
-            "PMLK-6"
+            "PMLK-6",
+            "-1"
     };
 
     private static String[] Nama_Kendaraan = {
@@ -393,7 +415,8 @@ public class DataDummy {
             "OC 500 RF 2542",
             "MERCEDES GLS-CLASS",
             "Joglosemarkerto",
-            "KM Awu"
+            "KM Awu",
+            "-1"
     };
 
     private static int[] Kecepatan_Maksimum_Kendaraan = {
@@ -402,7 +425,8 @@ public class DataDummy {
             120,
             246,
             120,
-            30
+            30,
+            -1
     };
 
     private static int[] Kapasitas_Muatan_Kendaraan = {
@@ -411,7 +435,8 @@ public class DataDummy {
             1000,
             500,
             2000,
-            500000
+            500000,
+            -1
     };
 
     private static String[] Tahun_Pengadaan_Kendaraan = {
@@ -420,7 +445,8 @@ public class DataDummy {
             "2010-04-13",
             "2016-05-14",
             "2015-12-05",
-            "2009-09-22"
+            "2009-09-22",
+            "2000-01-01"
     };
 
     private static String[] Jenis_Mesin_Kendaraan = {
@@ -429,7 +455,8 @@ public class DataDummy {
             "Diesel",
             "Diesel",
             "Diesel",
-            "Diesel"
+            "Diesel",
+            "-1"
     };
 
     private static String[] Hotline_Kendaraan = {
@@ -438,7 +465,8 @@ public class DataDummy {
             "0823 4567 9089",
             "0888 2322 4212",
             "022-4230031",
-            "0555 6666 6666"
+            "0555 6666 6666",
+            "-1"
     };
 
     private static int[] Kapasitas_tangki_Kendaraan = {
@@ -447,7 +475,8 @@ public class DataDummy {
             600,
             90,
             3000,
-            400000
+            400000,
+            -1
     };
 
     private static int[] Berat_kendaraan_Kendaraan = {
@@ -456,7 +485,8 @@ public class DataDummy {
             20000,
             2500,
             18000,
-            15000000
+            15000000,
+            -1
     };
 
     private static String[] Jenis_Bahan_Bakar_Kendaraan = {
@@ -465,7 +495,8 @@ public class DataDummy {
             "Solar",
             "Petrol",
             "HSD",
-            "Solar"
+            "Solar",
+            "-1"
     };
 
     private static int[] Kapasitas_Penumpang_Kendaraan = {
@@ -474,7 +505,8 @@ public class DataDummy {
             40,
             7,
             300,
-            2000
+            2000,
+            -1
     };
 
     private static int[] Panjang_Kendaraan = {
@@ -483,7 +515,8 @@ public class DataDummy {
             14,
             5,
             90,
-            120
+            120,
+            -1
     };
 
     private static String[] Tahun_Mulai_Dimiliki_Kendaraan = {
@@ -492,7 +525,8 @@ public class DataDummy {
             "2014-02-23",
             "2017-07-04",
             "2018-02-25",
-            "2013-01-18"
+            "2013-01-18",
+            "2000-01-01"
     };
 
     public static ArrayList<AlatTransportasi> getListAlatTransportasi() {
@@ -1472,38 +1506,38 @@ public class DataDummy {
 
     private static String[] Kode_Kendaraan_TPKF = {
             "KDRN-1",
-            "NULL",
+            "-1",
             "KDRN-3",
-            "NULL",
+            "-1",
             "KDRN-5",
             "KDRN-6",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
             "KDRN-1",
             "KDRN-3",
             "KDRN-6",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
             "KDRN-1",
-            "NULL",
+            "-1",
             "KDRN-3",
             "KDRN-4",
             "KDRN-5",
             "KDRN-6",
-            "NULL",
-            "NULL",
-            "NULL",
-            "NULL",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
     };
 
     private static String[] Kode_Fasilitas_TPKF = {

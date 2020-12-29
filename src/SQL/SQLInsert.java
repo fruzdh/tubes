@@ -21,6 +21,7 @@ public class SQLInsert {
             preparedStatement.setString(2, kota.getNama());
             preparedStatement.setInt(3, kota.getLuas_Wilayah());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel KOTA");
         }
@@ -36,6 +37,7 @@ public class SQLInsert {
             preparedStatement.setString(1, fasilitas.getKode_Fasilitas());
             preparedStatement.setString(2, fasilitas.getNama());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel FASILITAS");
         }
@@ -51,6 +53,7 @@ public class SQLInsert {
             preparedStatement.setString(1, fitur.getKode_Fitur());
             preparedStatement.setString(2, fitur.getNama());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel FITUR");
         }
@@ -66,6 +69,7 @@ public class SQLInsert {
             preparedStatement.setString(1, layanan.getKode_Layanan());
             preparedStatement.setString(2, layanan.getNama());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel LAYANAN");
         }
@@ -88,6 +92,7 @@ public class SQLInsert {
             preparedStatement.setInt(8, produsen.getKapasitas_Produksi());
             preparedStatement.setInt(9, produsen.getJumlah_Karyawan());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel PRODUSEN");
         }
@@ -106,6 +111,7 @@ public class SQLInsert {
             preparedStatement.setString(4, cabangProdusen.getAlamat_Cabang());
             preparedStatement.setInt(5, cabangProdusen.getKapasitas_Produksi());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel CABANG_PRODUSEN");
         }
@@ -126,6 +132,7 @@ public class SQLInsert {
             preparedStatement.setString(6, pemilik.getNomor_Telepon());
             preparedStatement.setString(7, pemilik.getWebsite());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel PEMILIK");
         }
@@ -154,6 +161,7 @@ public class SQLInsert {
             preparedStatement.setInt(14, alatTransportasi.getPanjang());
             preparedStatement.setString(15, alatTransportasi.getTahun_Mulai_Dimiliki());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel ALAT_TRANSPORTASI");
         }
@@ -174,6 +182,7 @@ public class SQLInsert {
             preparedStatement.setInt(6, pesawat.getLebar_Kabin());
             preparedStatement.setInt(7, pesawat.getBentang_Sayap());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel PESAWAT");
         }
@@ -190,6 +199,7 @@ public class SQLInsert {
             preparedStatement.setInt(2, helikopter.getKetinggian_Maksimal());
             preparedStatement.setInt(3, helikopter.getDiameter_Baling_Baling());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel HELIKOPTER");
         }
@@ -198,7 +208,7 @@ public class SQLInsert {
 
     public int MOBIL_BUS(Connection connection, MobilBus mobilBus) {
         int hasil = 0;
-        String sql = "INSERT INTO MOBIL_BUS ((Kode_Kendaraan, Jumlah_Roda, Plat_Nomor, Karoseri, Manual_Atau_Matik)"
+        String sql = "INSERT INTO MOBIL_BUS (Kode_Kendaraan, Jumlah_Roda, Plat_Nomor, Karoseri, Manual_Atau_Matik)"
                 + " VALUES (?, ?, ?, ?, ?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -207,8 +217,8 @@ public class SQLInsert {
             preparedStatement.setString(3, mobilBus.getPlat_Nomor());
             preparedStatement.setString(4, mobilBus.getKaroseri());
             preparedStatement.setInt(5, mobilBus.getManual_Atau_Matik());
-
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MOBIL_BUS");
         }
@@ -226,6 +236,7 @@ public class SQLInsert {
             preparedStatement.setString(3, mobilPenumpang.getPlat_Nomor());
             preparedStatement.setInt(4, mobilPenumpang.getManual_Atau_Matik());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MOBIL_PENUMPANG");
         }
@@ -244,6 +255,7 @@ public class SQLInsert {
             preparedStatement.setInt(4, kereta.getJumlah_Lokomotif());
             preparedStatement.setInt(5, kereta.getJumlah_Gerbong());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel KERETA");
         }
@@ -259,6 +271,7 @@ public class SQLInsert {
             preparedStatement.setString(1, kapal.getKode_Kendaraan());
             preparedStatement.setInt(2, kapal.getJumlah_Geladak());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel KAPAL");
         }
@@ -282,6 +295,7 @@ public class SQLInsert {
             preparedStatement.setInt(9, tempatPemberhentian.getKapasitas_Pengunjung());
             preparedStatement.setString(10, tempatPemberhentian.getNomor_Telepon());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel TEMPAT_PEMBERHENTIAN");
         }
@@ -301,6 +315,7 @@ public class SQLInsert {
             preparedStatement.setInt(5, bandara.getJumlah_Terminal());
             preparedStatement.setInt(6, bandara.getJenis_Bandara());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel BANDARA");
         }
@@ -316,6 +331,7 @@ public class SQLInsert {
             preparedStatement.setString(1, heliport.getKode_Tempat_Pemberhentian());
             preparedStatement.setInt(2, heliport.getJumlah_Helipad());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel HELIPORT");
         }
@@ -324,7 +340,7 @@ public class SQLInsert {
 
     public int TERMINAL(Connection connection, Terminal terminal) {
         int hasil = 0;
-        String sql = "INSERT INTO TERMINAL (Kode_Tempat_Pemberhentian, Jumlah_Jalur, Klasifikas)"
+        String sql = "INSERT INTO TERMINAL (Kode_Tempat_Pemberhentian, Jumlah_Jalur, Klasifikasi)"
                 + " VALUES (?, ?, ?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -332,6 +348,7 @@ public class SQLInsert {
             preparedStatement.setInt(2, terminal.getJumlah_Jalur());
             preparedStatement.setString(3, terminal.getKlasifikasi());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel TERMINAL");
         }
@@ -349,6 +366,7 @@ public class SQLInsert {
             preparedStatement.setString(3, stasiun.getKlasifikasi());
             preparedStatement.setInt(4, stasiun.getJumlah_Peron());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel STASIUN");
         }
@@ -364,6 +382,7 @@ public class SQLInsert {
             preparedStatement.setString(1, pelabuhan.getKode_Tempat_Pemberhentian());
             preparedStatement.setInt(2, pelabuhan.getJumlah_Dermaga());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel PELABUHAN");
         }
@@ -385,6 +404,7 @@ public class SQLInsert {
             preparedStatement.setString(7, rute.getTanggal_Berangkat());
             preparedStatement.setString(8, rute.getTanggal_Tiba());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel RUTE");
         }
@@ -404,6 +424,7 @@ public class SQLInsert {
             preparedStatement.setString(5, tiket.getPosisi_Duduk());
             preparedStatement.setInt(6, tiket.getTelah_Terbeli());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel TIKET");
         }
@@ -419,6 +440,7 @@ public class SQLInsert {
             preparedStatement.setString(1, memilikiFitur.getKode_Kendaraan());
             preparedStatement.setString(2, memilikiFitur.getKode_Fitur());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MEMILIKI_FITUR");
         }
@@ -434,6 +456,7 @@ public class SQLInsert {
             preparedStatement.setString(1, memilikiRute.getKode_Kendaraan());
             preparedStatement.setString(2, memilikiRute.getKode_Rute());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MEMILIKI_RUTE");
         }
@@ -449,6 +472,7 @@ public class SQLInsert {
             preparedStatement.setString(1, memilikiLayanan.getKode_Tempat_Pemberhentian());
             preparedStatement.setString(2, memilikiLayanan.getKode_Layanan());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MEMILIKI_LAYANAN");
         }
@@ -462,9 +486,10 @@ public class SQLInsert {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, memilikiFasilitas.getKode_Tempat_Pemberhentian());
-            preparedStatement.setString(1, memilikiFasilitas.getKode_Kendaraan());
-            preparedStatement.setString(1, memilikiFasilitas.getKode_Fasilitas());
+            preparedStatement.setString(2, memilikiFasilitas.getKode_Kendaraan());
+            preparedStatement.setString(3, memilikiFasilitas.getKode_Fasilitas());
             hasil = preparedStatement.executeUpdate();
+            preparedStatement.close();
         } catch (SQLException e) {
             System.out.println("Terjadi error saat insert ke tabel MEMILIKI_FASILITAS");
         }

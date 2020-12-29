@@ -2,63 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbfae21-da64-4244-809d-ee70f3e2e319" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SQL/SQLDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/SQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/SQLUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQLInsert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQL/SQLInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/SQL/SQLInsert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TUBES/TuBes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/TuBes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/CabangProdusen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Fasilitas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Fitur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Karyawan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Kota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Layanan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/MemilikiFasilitas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/MemilikiFitur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/MemilikiKaryawan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/MemilikiLayanan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/MemilikiRute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Produsen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/Rute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Helikopter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Kapal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Kereta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Mobil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Motor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/kendaraan/Pesawat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/pemilik/PemilikIndividu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/pemilik/PemilikInstansi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/tempatpemberhentian/Bandara.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/tempatpemberhentian/Heliport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/tempatpemberhentian/Pelabuhan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/tempatpemberhentian/Stasiun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/tempatpemberhentian/Terminal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/DataDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/data/DataDummy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SQL/SQLInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/SQLInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TuBes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TuBes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/DataDummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DataDummy.java" afterDir="false" />
@@ -136,34 +86,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1609051624114" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1609044923126">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1609205167449">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1609044923126" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1609173389294">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1609205167449" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1609218662335">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609173389294" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1609173389294">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609218662335" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1609218662334">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609173389294" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1609173389294">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609218662334" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1609218662334">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609173389294" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1609173389294">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609218662334" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1609218662335">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609173389294" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609218662335" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1609044739582">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1609044739582" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1609127660307">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1609201832539">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1609127660307" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1609201832539" />
+    <state x="65" y="0" key="new project wizard" timestamp="1609205171159">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1609205171159" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1609132402147">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbfae21-da64-4244-809d-ee70f3e2e319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SQL/SQLDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL/SQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL/SQLUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/SQL/SQLInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/SQL/SQLInsert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/TuBes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/TuBes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TUBES/data/DataDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TUBES/data/DataDummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/SQLInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/SQLInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TuBes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TuBes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DataDummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DataDummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQL/SQLUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/SQLUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
